@@ -1,1 +1,1 @@
-rdma added
+This project is a responsive web layout built using HTML5 and CSS3 (Flexbox). The goal is to replicate a clean, accessible structure inspired by a Figma design, maintaining responsiveness across desktop and mobile screens. The layout uses semantic tags (<header>, <main>, <footer>) and flex container behavior to ensure a flexible and user-friendly experience.
