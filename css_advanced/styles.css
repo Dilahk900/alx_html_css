@@ -1,0 +1,279 @@
+body{
+    font-family: Source Sans Pro;
+    padding: 0px;
+}
+
+
+.header-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+    height: 30px;
+    position: absolute;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+}
+
+nav, ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+nav, ul, li{
+    padding-left: 53px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 12px;
+    color: #ffffff;
+}
+.logo{
+    width: 167px;
+    height: 30px;
+}
+
+/*Section 1 : The banner under the header*/
+.banner1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 150px;
+}
+
+button{
+    width: 160px;
+    height: 45px;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #C271FF;
+    color: #ffffff;
+    box-shadow: 0px 4px 12px #000000;
+    cursor: pointer;
+}
+
+.words{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.spacing-words{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.getschooled{
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 13%;
+}
+
+#headerBannerBg{
+    background-image: url(img/Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Section 2 : Header and Banner*/
+
+.banner2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    
+}
+.firstWord{
+    font-size: 32px;
+    font-weight: 900;
+    color: #C271FF;
+}
+.titleOfSection{
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.prosbloc{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.pros{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prosImages{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.pros> p{
+    font-style: italic;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.pros> h4{
+    margin-bottom: 0px;
+}
+
+/*Section 3 :  Quotes*/
+
+.section3{
+    background-color: #C271FF;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 16px;
+}
+
+/*
+.quoteAuth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+
+.txtquote3{
+    font-style: italic;
+}
+.txtquote2{
+    font-weight: 900;
+}
+
+/*section 4 : Videos list*/
+.section4> h3{
+    font-size: 32px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    width: 100% !important;
+}
+.videosbloc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.thumbnail{
+    position: relative;
+    display: inline-block;
+}
+.thumbnail img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.playicon{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    
+}
+
+.authorContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.videoIconAuth{
+    width: 25px;
+    height: 25px;
+}
+
+.authorName{
+    color: #C271FF;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.videoinfo{
+    margin-left: 10px;
+}
+
+.videoinfo> p{
+    width: 250px;
+    font-size: 14px;
+    color: #071629;
+    margin-bottom: 0px;
+}
+
+.videoTime{
+    color: #C271FF;
+    font-size: 14px;
+}
+.ratingBloc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 220px;
+    margin-top: 0px;
+}
+
+.videobloc{
+    margin-right: 20px;
+}
+
+/*Section 5 : Membership*/
+
+.section5{
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.section5> h2{
+    margin-bottom: 50px;
+}
+
+.blocCore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    margin-right: 5%;
+}
+.plan> p{
+    font-size: 14px;
+    text-align: center;
+}
