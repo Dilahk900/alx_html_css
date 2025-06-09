@@ -3,6 +3,7 @@ body{
     padding: 0px;
 }
 
+/*main{}*/
 
 .header-style{
     display: flex;
@@ -285,16 +286,44 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
-.faqrows{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.section6> h2{
+  font-size: 60px;
+  font-weight: 300;
 }
 
 .faqrow{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    width: 60%;
 }
+
+.faqCore{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faqrows1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15%;
+    padding-bottom: 60px;
+    width: 35%;
+    height: auto;
+}
+.faqrows2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-bottom: 60px;
+    width: 35%;
+    height: auto;
+}
+
+.faqrows1> p, .faqrows2> p{
+  font-size: 14px;
+  color: #071629;
+}
+
