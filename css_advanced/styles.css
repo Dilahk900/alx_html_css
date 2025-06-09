@@ -327,3 +327,16 @@ button{
   color: #071629;
 }
 
+/*----Footer----*/
+
+footer{
+  background-color: #071629;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smLogos{
+  width: 30px;
+  height: 30px;
+}
