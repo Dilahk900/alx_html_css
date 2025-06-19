@@ -34,15 +34,28 @@ header{
   margin-top: 2%;
 }
 
-nav, ul{
+nav ul{
   list-style-type: none;
   display: flex;
   flex-direction: row;
 }
 
-nav, ul, li{
+
+nav ul li a{
   padding-right: 30px;
   font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+li a:hover{
+  color: #FF6565;
+  padding-right: 30px;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .logo{
