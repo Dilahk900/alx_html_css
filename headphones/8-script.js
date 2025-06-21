@@ -13,7 +13,7 @@ hamburger.addEventListener('click',() => {
     } 
 });
 
-const headerscroll = document.getElementById('headerS');
+/*const headerscroll = document.getElementById('headerS');
 
 headerscroll.addEventListener('scroll', () =>{
     if(window.scrollY > 50){
@@ -21,4 +21,4 @@ headerscroll.addEventListener('scroll', () =>{
     } else {
         headerscroll.classList.remove('scrolled');
     } 
-});
+});*/
